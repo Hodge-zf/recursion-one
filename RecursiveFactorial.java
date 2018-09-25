@@ -54,14 +54,14 @@ public class RecursiveFactorial
         long result = partial;
 
         if (n > 1){
-          //System.out.println("n: "+n);
-          //System.out.println("n-1: "+(n-1));
+
           result = partial*(n*(n-1));
           System.out.println("Partial: "+result);
           helper(n-2, result);
           System.out.println("Result: "+result);
 
         }
+        
         return result;
     }
 
