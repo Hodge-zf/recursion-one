@@ -31,7 +31,7 @@ public class Count
      */
     private static void countUp(int n)
     {
-      if( n >= 1){
+      if(n >= 1){
         countUp(n - 1);
         System.out.println(n);
       }
